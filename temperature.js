@@ -14,11 +14,11 @@ function calculate() {
     num = parseFloat(num);
     if (type == 'c' || type == 'C') {
       result = (num * 9/5)+32;
-      result = (result.toFixed(2) + "F");
+      result = (result.toFixed(2) + "Farenheit");
     }
     else {
       result = (num - 32)*5/9;
-      result = (result.toFixed(2) + "C");
+      result = (result.toFixed(2) + "Celcius");
     }
     converted.innerHTML = result;
   }
